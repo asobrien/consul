@@ -126,7 +126,7 @@ func (c *KVPutCommand) Run(args []string) int {
 	// Create and test the HTTP client
 	conf := api.DefaultConfig()
 	conf.Address = *httpAddr
-	if conf.Token == "" {
+	if *token != "" {
 		conf.Token = *token
 	}
 	client, err := api.NewClient(conf)
