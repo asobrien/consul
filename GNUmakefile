@@ -1,6 +1,7 @@
 GOTOOLS = \
 	github.com/elazarl/go-bindata-assetfs/... \
 	github.com/jteeuwen/go-bindata/... \
+	github.com/mitchellh/cli \
 	github.com/mitchellh/gox \
 	golang.org/x/tools/cmd/cover \
 	golang.org/x/tools/cmd/stringer
